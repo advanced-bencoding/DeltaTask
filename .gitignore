@@ -1,0 +1,60 @@
+# .NET Core build files
+bin/
+obj/
+out/
+
+# Visual Studio and VS Code settings
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Dependencies
+**/node_modules/
+**/packages/
+*.nupkg
+*.snupkg
+
+# Logs and debugging
+logs/
+*.log
+**/*.log
+!log/.gitkeep
+
+# Environment and config files
+.env
+appsettings*.json
+
+# Database and migrations
+*.mdf
+*.ldf
+migrations/
+
+# Compiled DLLs and executables
+*.exe
+*.dll
+*.pdb
+*.cache
+*.so
+*.dylib
+*.a
+*.lib
+
+# Rider and JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Miscellaneous
+*.swp
+*.bak
+*~
